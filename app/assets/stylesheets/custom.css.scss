@@ -1,0 +1,59 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+#iniciar_sesion, #registro{
+  // border: 1px solid orange;
+  // padding: 3%;
+  // margin: 8px;
+  // border-radius: 5px;
+  // background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+#iniciar_sesion:hover, #registro:hover{
+  // background-color: rgba(225, 225, 255, 0.8);
+  // transition-duration: 1s;
+}
+.texto{
+
+  font-size: 1.5em;
+  color: white;
+
+}
+.contenedor{
+  // border: 3px solid green;
+  // margin-top: 20%;
+  height: 33%;
+
+}
+
+
+html,body{
+  height:100%;
+  border: 1px solid blue;
+
+}
+.contenedor-principal{
+  height: 100%;
+  width: 100%;
+  background-image: url(home1.jpg);
+  background-size: cover;
+}
+.container {
+    height:100%;
+    width: 100%;
+}
+.field{
+  color: white;
+}
+.btn, .btn-default{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  margin: 24px;
+  width: 75%;
+  color: white;
+}
+
+.btn:hover, .btn-default:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(65,25,200);
+  transition-duration: 1s;
+}
